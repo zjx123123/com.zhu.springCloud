@@ -25,5 +25,7 @@ public class AccountServiceImpl implements AccountService {
         }
         LOGGER.info("---->acount-service中扣减账户余额开始");
         accountDao.decrease(userId,money);
+        System.out.println("gittest");
     }
+
 }
